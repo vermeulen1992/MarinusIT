@@ -37,6 +37,7 @@ body {
     color: #ffffff;
     font-size: 100%;
     font-family: 'Roboto Condensed', monospace;
+    line-height: 35px;
 }
 
 ::-moz-selection {
@@ -715,7 +716,6 @@ article .inside {
     margin: 18px 24px 24px;
     padding-top: 1em;
     padding-bottom: 1em;
-    background: url("../img/dot-row-2.png") repeat-x scroll 0 0 transparent !important;
 }
 
 .post-date {
@@ -828,7 +828,6 @@ hr.featurette-divider {
     margin: 3em 0;
     border-width: 0;
     height: 9px;
-    background: url("../img/dot-row-3-lt.png") repeat-x;
 }
 
 
@@ -964,7 +963,7 @@ footer p {
 
 .btn:link, .btn:visited {
     color: #c82428;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -1208,13 +1207,6 @@ footer p {
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
         margin-left: auto;
         margin-right: auto;
-    }
-    /* Credits Section */
-    #theme-form {
-        overflow: hidden;
-    }
-    #theme-form input[type=submit] {
-        width: 100%;
     }
 }
 

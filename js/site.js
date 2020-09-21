@@ -1,13 +1,15 @@
 
 	jQuery(document).ready(function($) {
 
-		    //$('#nav-main').scrollspy()
-		    
-		    // Localscrolling 
-    		$('#nav-main, .brand').localScroll();
-     		$('#news, .container').localScroll();
-			
-	});
-	
-	
+		// Progress bar
+		NProgress.start();
+		setTimeout(function () {
+			NProgress.done();
+			$(".fade").removeClass("out");
+		}, 1000);
 
+		// Local scrolling
+		$('.brand').localScroll();
+		$('.container').localScroll();
+
+	});

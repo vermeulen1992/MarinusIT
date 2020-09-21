@@ -58,6 +58,6 @@
 .icon-custom-github-circled:before { content: '\e806'; } /* '' */
 .icon-custom-bat-half:before { content: '\e810'; } /* '' */
 .icon-custom-chart-pie-alt:before { content: '\e811'; } /* '' */
-.icon-custom-github-circled-alt2:before { content: '\e807'; } /* '' */
+.icon-custom-github-circled-alt2:before { content: '\e807'; color: #dcdcdc } /* '' */
 .icon-custom-android:before { content: '\e813'; } /* '' */
 .icon-custom-chart-pie:before { content: '\e812'; } /* '' */
