@@ -50,6 +50,15 @@ body {
     color: #333;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-left {
+    text-align: left;
+}
+
 
 /*---------- FORMS ----------*/
 
@@ -179,6 +188,15 @@ small {
 em {
     font-style: normal;
     font-family: 'Roboto Condensed', monospace;
+}
+
+td {
+    padding:0 5px 0 5px;
+}
+
+.bold-red {
+    color: #c82428;
+    font-weight: bold;
 }
 
 .muted {
@@ -690,7 +708,7 @@ blockquote.mega .cite {
 
 /* Downloads */
 
-section#cv .align {
+section#education .align {
     font-size: 6em;
     margin-top: 10px;
     text-align: center;
@@ -728,24 +746,57 @@ article .inside {
     margin-right: 5px;
 }
 
-#cv h1 {
+#education h1 {
     font-size: 3em;
     margin-bottom: 1em;
     margin-top: 0.5em;
 }
 
-#cv h2 {
+#education h2 {
     font-size: 21px;
     margin-top: 24px;
     margin-bottom: 16px;
-    color: #ffffff;
     clear: right;
+    text-align: center;
 }
 
+section#education p {
+    margin: 10px;
+}
+
+section#education .align {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 6em;
+}
+
+section#education .align .sev_icon {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-size: 0.6em;
+    color: #c82428;
+}
+
+section#education .span6, section#education .span12{
+    background: #151515;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+section#education .span6:hover, section#education .span12:hover{
+    color: #ffffff;
+    background: #212121;
+    box-shadow: 1px 1px 6px #000000;
+}
 
 /* Team and Credits */
 
-section#about, section#contact {
+, section#contact {
     color: #ffffff;
     background: #010101;
 }
@@ -754,6 +805,11 @@ section#about .align, section#contact .align {
     font-size: 6em;
     margin-top: 10px;
     text-align: center;
+}
+
+section#about .img-cv{
+    margin-left: 30px;
+    margin-top: 50px;
 }
 
 #about h1, #contact h1 {
