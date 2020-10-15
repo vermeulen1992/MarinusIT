@@ -559,10 +559,6 @@ section#screenshots .align {
 
 /* Projects */
 
-section#projects {
-    padding-bottom: 9.5em;
-}
-
 #projects h1 {
     font-size: 3em;
     margin-bottom: 1em;
@@ -668,8 +664,9 @@ section#skills .span6:hover {
     box-shadow: 1px 1px 6px #000000;
 }
 
-#skillsChart{
-    max-height: 600px;
+.chart{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -822,7 +819,7 @@ section#about .img-cv{
     margin-top: 0.5em;
 }
 
-#contact, #about {
+#contact, #about, #projects, #skills, #education, #contact {
     padding-top: 4.75em;
 }
 
@@ -1044,18 +1041,25 @@ footer p {
 @media (max-width: 979px) {
     .navbar-fixed-top {
         margin-bottom: 0;
+        position: fixed !important;
+        margin-top: -25px!important
     }
     .navbar .container {
         width: 100%;
+        margin-top: 25px;
     }
     .navbar .brand {
         margin-top: 0;
     }
     .navbar .btn-navbar {
         margin-top: 0;
+        margin-bottom: 0;
     }
     .navbar-fixed-top .navbar-inner {
-        padding: 0px;
+        padding-top: 25px !important;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+        padding-bottom: 0px !important;
     }
     .featurette {
         height: auto;
@@ -1066,12 +1070,6 @@ footer p {
         float: none;
         max-width: 40%;
         margin: 0 auto 20px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-    #headerwrap {
-        padding-top: 0;
     }
 }
 
@@ -1122,9 +1120,6 @@ footer p {
 /* Smaller screens ----------- */
 
 @media (max-width: 480px) {
-    #headerwrap {
-        padding-top: 0;
-    }
     #headerwrap h1 {
         font-size: 2em;
     }
