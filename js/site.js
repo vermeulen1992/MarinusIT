@@ -87,12 +87,12 @@
 
 			let lfData = [{
 				backgroundColor: '#c82428',
-				data: [6,5,5,5,4,3,1],
+				data: [7,7,7,6,5,5,2],
 				barPercentage: 9,
 				barThickness: 20,
 				minBarLength: 100,
 			}];
-			let lfLabels = ["HTML,CSS,JS","C#","T-SQL","LINQ ","ASP.Net","PowerShell","Angular"]
+			let lfLabels = ["C#","HTML,CSS,JS","T-SQL","LINQ ","ASP.Net","PowerShell","Angular"]
 			let lfChartData =  Object.assign({}, chartConfig);
 			lfChartData.data = {
 				labels: lfLabels,
@@ -101,7 +101,7 @@
 
 			let tfData = [{
 				backgroundColor: '#c82428',
-				data: [5,5,4,4,1,1],
+				data: [7,7,6,5,2,2],
 				barPercentage: 9,
 				barThickness: 20,
 				minBarLength: 100,
@@ -115,7 +115,7 @@
 
 			let mData = [{
 				backgroundColor: '#c82428',
-				data: [5,5,4,4,4],
+				data: [7,7,6,6,6],
 				barPercentage: 9,
 				barThickness: 20,
 				minBarLength: 100,
